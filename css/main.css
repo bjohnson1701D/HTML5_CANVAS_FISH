@@ -4,48 +4,6 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 	background-image: -moz-linear-gradient(to bottom, lightblue, darkblue);    
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lightblue', endColorstr='darkblue'); /* for IE */
-    background-image: -webkit-gradient(linear, left top, left bottom, from(lightblue), to(darkblue)); /* for webkit browsers */
-}
-#main{
-	position: absolute;
-	top:50%;
-	margin-top:-125px;
-	left:0;
-	width:100%;	
-	visibility:hidden;
-	}
-#cont{
-	opacity:.75;
-	margin-left: auto;
-	margin-right: auto;
-	width:300px;
-	height:250px;
-	border:1px solid black;
-	position:relative;
-	-webkit-border-radius: 25px;
-	-ms-border-radius: 25px;
-	-moz-border-radius: 25px;
-	border-radius: 25px;
-	-webkit-box-shadow:  0 0 20px black;
-	-ms-box-shadow:  0 0 20px black;
-	 box-shadow: 0 0 20px black;
-	 visibility:visible;
-	background-image: -moz-linear-gradient(to bottom, white, lightblue);    
-	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='white', endColorstr='lightblue'); /* for IE */
-    background: -webkit-gradient(linear, left top, left bottom, from(white), to(lightblue)); /* for webkit browsers */
-	 z-index:1001;
-	 }
-	 
-table{
-	margin-left: auto;
-	margin-right: auto;z-index:1001;
-}
-canvas{
-}
-input{opacity:1}
-.error{
-	color:red;
-	margin-left:auto;
-	margin-right:auto;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='lightblue', endColorstr='darkblue');
+    background-image: -webkit-gradient(linear, left top, left bottom, from(lightblue), to(darkblue));
 }

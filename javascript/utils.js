@@ -17,10 +17,6 @@
 		}
 		
 		function getFill(){
-			if(BrowserDetect.browser!='Chrome'){
-			    retval = getRGB();
-			}
-			else
 			var retval =  {start: {x: 7.5, y: -10},
 					end: {x: 7.5, y: 0},
 					colorStops: [0, getRGB(),1,"#424242"]};
